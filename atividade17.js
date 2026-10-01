@@ -1,0 +1,7 @@
+let contador = 0
+while(contador < 10){
+    console.log(contador)
+    contador++
+}
+
+//console.log faz com que o código role dentro do computador, sem o alerta, evita o LER
