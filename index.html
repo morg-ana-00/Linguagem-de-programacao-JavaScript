@@ -12,14 +12,85 @@
 <body>
     <main>
         <header>
-            <h1>Lógica de Programação - ESTRUTURA DE DECISÃO ENCADEADA</h1>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae, debitis ratione doloremque velit
-                quasi soluta doloribus ipsam. Delectus voluptatum explicabo molestiae animi harum quisquam consequatur,
-                cum adipisci nam praesentium. </p>
+            <h1>Lógica de Programação - POSTO DE GASOLINA - JavaScript</h1>
+            <p> Var
+                // Seção de Declarações das variáveis
                 <br>
+                gasolina, desconto, alcool, litro: real
+                <br>
+                valorPago, valorAlcool, valorGasolina: real
+                <br>
+                combustivel: caractere</p> 
+            <br><br>
+            <p>Inicio
+                // Seção de Comandos, procedimento, funções, operadores, etc...
+                <br>
+                Escreval("=================")
+                <br>
+                Escreval("POSTO DE GASOLINA")
+                <br>
+                Escreval("=================")
+                <br><br>
+                Escreval("")
+                <br>
+                Escreval("Olá! Bem-vindo(a), você deseja gasolina ou ácool?")
+                <br>
+                Escreval("Digite >A< para Álcool") 
+                <br>
+                Escreval("Digite>B< para Gasolina") 
+                <br>
+                Leia(combustivel) 
+                <br>
+                caso
+                <br>
+                combustivel="A" ou "a" ou "álcool" ou "alcool" entao 
+                <br>
+                Escreval("")
+                <br> 
+                Escreval("Digite quantos litros de álcool deseja:")
+                <br>
+                 Leia(litro)
+                 <br>
+                valorAlcool <- ( litro * 2.90 )
+                <br> 
+                se litro>= 20 entao
+                <br>
+                desconto <- ( valorAlcool * 0.3 ) 
+                <br>
+                Escreval("Foi abastecido ", litro, " litros de álcool, custando: ", desconto)</p>
+            <br> 
+            <p>   
+                senao
+                <br>
+                Escreval(" Foi abastecido ", litro, " litros de álcool, custando: ", valorAlcool)
+                <br>
+                fimse
+                <br>
+                caso combustivel = " G" ou "g" ou "gasolina" entao
+                <br> 
+                Escreval("") 
+                <br><br>
+                Escreval("Digite quantos litros de gasolina deseja: ")
+                <br>
+                Leia(litro)
+                <br>
+                valorGasolina <- ( litro * 3.30 )
+                <br>
+                se litro >= 20 entao
+                <br>
+                desconto <- ( valorGasolina * 0.4 )
+                <br>
+                Escreval(" Foi abastecido", litro, " litros de gasolina, custando: " , desconto) 
+                <br>
+                senao 
+                <br>
+                Escreval("Foi abastecido", litro, " litros de gasolina, custando: " , valorGasolina) 
+                <br>
+                fimse </p>
+            <br>
         </header>
     </main>
-    <script src="atividade20.js"></script>
+    <script src="atividade21.js"></script>
 
 </body>
 
