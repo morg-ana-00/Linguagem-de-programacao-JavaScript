@@ -12,77 +12,40 @@
 <body>
     <main>
         <header>
-            <h1>LÓGICA DE PROGRAMAÇÃO - Horas Extras - JavaScript</h1>
+            <h1>LÓGICA DE PROGRAMAÇÃO - Cálculo do Volume ( lata de óleo ) - JavaScript</h1>
             <p>
-                Algoritmo "Exercício-22"
-                <br>
-// Disciplina : [Lógica de Programação]
-<br>
-// Professor  : Jailson Costa dos Santos
-<br>
-// Descrição  : Calcula o salário mensal com acréscimo de 50% sobre as
-<br>
-// horas extras.
-<br>
-// Autor(a)   : Ana Carolina Correa
-<br>
-// Data atual : 26/09/2026
-<br><br>
-Var
-<br>
-// Seção de Declarações das variáveis
-<br>
-horasTrabalhadas, horasExtras : inteiro
-<br>
-salarioHora, valorHoraExtra, salarioFinal : real
-<br><br>
-Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-<br>
-Escreval("==========================")
-<br>
-Escreval("Calculando as horas extras")
-<br>
-Escreval("==========================")
-<br>
-Escreval("")
-<br><br>
-Escreval("Digite quantas horas trabalhadas no Mês: ")
-<br>
-Leia(horasTrabalhadas)
-<br>
-Escreval("Digite o seu salário (por hora): ")
-<br>
-Leia(salarioHora)
-<br><br>
-// Se trabalhou até 160 horas
-<br>
-se horasTrabalhadas <= 160 entao
-<br>
-salarioFinal <- horasTrabalhadas * salarioHora
-<br>
-senao // Se trabalhou mais de 160 horas, calcula as horas extras
-<br>
-horasExtras <- horasTrabalhadas - 160
-<br>
-valorHoraExtra <- salarioHora * 1.5
-<br>
-salarioFinal <- (160 * salarioHora) + (horasExtras * valorHoraExtra)
-<br>
-// Salário final = (160 horas regulares) + (horas extras com acréscimo)
-<br>
-fimse
-<br><br>
-Escreval("--------------------")
-<br>
-Escreval("O salário final é de: R$ ", salarioFinal:1:2)
-<br><br>
-Fimalgoritmo
-            </p> 
-                <br>
+                Algoritmo "exercício-03"<br>
+                // Disciplina : [Linguagem e Lógica de Programação]<br>
+                // Professor : Jailson Costa dos Santos<br>
+                // Descrição : Calcular e apresentar o valor do volume de uma lata de óleo,<br>
+                // utilizando a fórmula:<br>
+                // volume <- pi * raio² * Altura<br>
+                    // Autor(a) : Ana Carolina Correa<br>
+                    // Data atual : 27/09/2026<br>
+                    Var<br>
+                    // Seção de Declarações das variáveis <br>
+                    volume, altura, raio: real
+                    <br><br>
+                    Inicio<br>
+                    // Seção de Comandos, procedimento, funções, operadores, etc... <br>
+                    Escreval("=================")<br>
+                    Escreval("Calculando Volume")<br>
+                    Escreval("=================")<br>
+                    Escreval("")<br><br>
+                    Escreval("Digite o valor da altura: ")<br>
+                    Leia(altura)<br>
+                    Escreval("Digite o valor do raio: ")<br>
+                    Leia(raio)
+                    <br><br>
+                    volume <- ( 3,14 * raio^2 * altura ) <br><br>
+                        Escreval("O volume é igual a: ", volume)
+                        <br><br>
+                        Fimalgoritmo
+            </p>
+            <br>
         </header>
     </main>
-    <script src="atividade30.js"></script>
+    <script src="atividade43.js"></script>
 
 </body>
 
